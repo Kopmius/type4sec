@@ -16,6 +16,10 @@ import numpy as np
 def index(request):
     return HttpResponse("login success!")
 
+#View 구현
+def index(request):
+    return render(request,"index.html")
+
 
 # 로그인 페이지
 def login(request):
