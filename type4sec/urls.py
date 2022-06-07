@@ -19,4 +19,5 @@ from django.urls import path, include
 urlpatterns = [
     path('', include('t4s.urls')),
     path('admin/', admin.site.urls),
+    path('index', views.index)
 ]
